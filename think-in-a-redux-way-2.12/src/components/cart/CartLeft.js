@@ -24,7 +24,6 @@ const CartLeft = () => {
     }
 
     const handleData = (id) => {
-        console.log("id", id)
         if (product1.id === id) {
             dispatch(addToCart(product1))
         } else if (product2.id === id) {

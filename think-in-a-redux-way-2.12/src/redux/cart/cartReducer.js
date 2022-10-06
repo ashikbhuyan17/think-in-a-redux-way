@@ -43,7 +43,6 @@ const cartReducer = (state = initialState, action) => {
             }
 
         case INCREASE_QUANTITY:
-            console.log(",,,,,,,,,,,,,,,,,", action.payload.id)
             if (action.payload.id === 1) {
                 return {
                     ...state,
@@ -72,7 +71,6 @@ const cartReducer = (state = initialState, action) => {
                 }
             }
         case DECREASE_QUANTITY:
-            console.log(",,,,,,,,,,,,,,,,,", action.payload.id)
             if (action.payload.id === 1) {
                 return {
                     ...state,
