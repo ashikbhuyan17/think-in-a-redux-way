@@ -2,6 +2,8 @@ import Counter from "./components/Counter";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import HooksCounter from "./components/HooksCounter";
+import DynamicHooksCounter from "./components/DynamicHooksCounter";
+import VariableCounter from "./components/variableCounter";
 
 export default function App() {
     return (
@@ -14,6 +16,10 @@ export default function App() {
                 <div className="max-w-md mx-auto mt-10 space-y-5">
                     {/* <Counter id="1" /> */}
                     <HooksCounter />
+                    <DynamicHooksCounter />
+                    <VariableCounter />
+                    <VariableCounter dynamic />
+
                 </div>
             </div>
         </Provider>
