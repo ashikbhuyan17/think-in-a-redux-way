@@ -6,8 +6,10 @@ export const initialState = [
     },
     {
         id: 2,
-        text: "learn react js",
+        text: "learn vue js",
         completed: false,
         color: "red"
     }
 ]
+
+export default initialState;
