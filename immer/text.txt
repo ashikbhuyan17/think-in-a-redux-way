@@ -1,0 +1,4 @@
+https://redux-toolkit.js.org/usage/immer-reducers
+npm i immer
+ইমার একটি লাইব্রেরি যা immutable update logic লেখার প্রক্রিয়াকে সহজ করে।
+Immer provides a function called produce, which accepts two arguments: your original state, and a callback function.
